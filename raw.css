@@ -1,6 +1,6 @@
 ::selection{color:#191919; background: rgba(238, 238, 238, 1.0);}
 
-.bold{font-weight: 700;}
+.bold{font-weight: 700;position: absolute;right: 0;}
 
 @media screen and (min-width:320px) {
         body {
@@ -29,7 +29,6 @@
         .one{
           position: absolute;
           right: 0;
-          /*margin-right: 5px;*/  
           -webkit-transform: rotateX(180deg) rotateY(180deg);
           -moz-transform: rotateX(180deg) rotateY(180deg);
           -o-transform: rotateX(180deg) rotateY(180deg);
@@ -40,7 +39,6 @@
         .two{
           position: absolute;
           right: 0; 
-          /*margin-right: 5px;*/  
           -webkit-transform: rotate(180deg);
           -moz-transform: rotateY(180deg);
           -o-transform: rotateY(180deg);
